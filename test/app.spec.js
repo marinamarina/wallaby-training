@@ -8,7 +8,8 @@ describe("Sequence of colors", function() {
   })
 
    var colors = ["red", "yellow", "green", "blue"]; 
-   it("should contain only valid colors", function() {
+  
+  it("should contain only valid colors", function() {
     var sequence = new RandomColorSequence(4);
     
     colors.should.contain(sequence.items[0]);

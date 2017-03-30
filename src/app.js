@@ -5,8 +5,14 @@ var RandomColorSequence = function(num) {
 
     // generate a random number
     var number = Math.floor(Math.random() * 4);
+    var color = numberToColor(number);
 
     // push to the array of items
-    this.items.push(number);
+    this.items.push(color);
   }
+
+}
+
+function numberToColor(num) {
+  return 'red';
 }
