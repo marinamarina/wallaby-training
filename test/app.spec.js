@@ -17,4 +17,12 @@ describe("Sequence of colors", function() {
     colors.should.contain(sequence.items[2]);
     colors.should.contain(sequence.items[3]);
   })
+
+  it("should map numbers to colors", function() {
+      numberToColor(0).should.equal("red");
+      numberToColor(1).should.equal("yellow");
+      numberToColor(2).should.equal("green");
+      numberToColor(3).should.equal("blue");
+  })
+
 });
