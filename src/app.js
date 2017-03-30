@@ -14,5 +14,8 @@ var RandomColorSequence = function(num) {
 }
 
 function numberToColor(num) {
-  return 'red';
+  if (num === 0) return 'red'; 
+  if (num === 1) return 'yellow'; 
+  if (num === 2) return 'green'; 
+  if (num === 3) return 'blue'; 
 }
