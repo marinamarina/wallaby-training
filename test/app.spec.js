@@ -1,8 +1,9 @@
 chai.should();
 
-describe("My first wallaby test", function() {
-  it("should work", function() {
-    var marina = true;
-    true.should.equal(marina);
+describe("Sequence of colors", function() {
+  it("should have length of 4 items", function() {
+    var sequence = new RandomColorSequence(4);
+    
+    sequence.items.length.should.equal(4);
   })
 });
