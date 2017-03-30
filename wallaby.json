@@ -1,6 +1,7 @@
 {
     "files": [
-      "src/*.js"
+      "src/*.js",
+      {"pattern": "lib/chai.js", "instrument": false}
     ],
     "tests": [
       "test/*.spec.js"
